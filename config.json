@@ -1,0 +1,17 @@
+{
+	"browsers": [
+		{
+	    "title": "Firefox",
+	    "exec": "firefox",
+	    "icon": "/usr/share/icons/hicolor/128x128/apps/firefox.png",
+	    "size": 32
+		},
+		{
+	    "title": "Google Chrome",
+	    "exec": "google-chrome",
+	    "icon": "/usr/share/icons/hicolor/256x256/apps/google-chrome.png",
+	    "size": 32
+		}
+
+	]
+}
