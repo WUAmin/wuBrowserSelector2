@@ -1,17 +1,92 @@
 {
-	"browsers": [
-		{
-	    "title": "Firefox",
-	    "exec": "firefox",
-	    "icon": "/usr/share/icons/hicolor/128x128/apps/firefox.png",
-	    "size": 32
-		},
-		{
-	    "title": "Google Chrome",
-	    "exec": "google-chrome",
-	    "icon": "/usr/share/icons/hicolor/256x256/apps/google-chrome.png",
-	    "size": 32
-		}
+    "ver": 2.5,
+    "browsers":
+        [
+            {
+            "title": "Firefox",
+            "exec": "firefox",
+            "args": "",
+            "icon": "/usr/share/icons/hicolor/128x128/apps/firefox.png",
+            "size": 32
+            },
+            {
+            "title": "[Win] Code - DevOps",
+            "exec": "D:\\Program-Files\\Microsoft VS Code\\Code.exe",
+            "args": "--extensions-dir D:\\Program-Files\\wuBrowserSelector2_Code-Win64\\Code-DevOps\\ --new-window",
+            "icon": "D:\Program-Files\wuBrowserSelector2_Code-Win64\code-devil.svg",
+            "size": 48
+            },
+            {
+            "title": "[Win] Firefox",
+            "exec": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+            "args": "",
+            "icon": "D:\\Program-Files\\wuBrowserSelector2-Win64\\Icons\\firefox_1_32X32.png",
+            "size": 32
+            },
+            {
+            "title": "Google Chrome",
+            "exec": "google-chrome-stable",
+            "args": "",
+            "icon": "/usr/share/icons/hicolor/256x256/apps/google-chrome.png",
+            "size": 32
+            },
+            {
+            "title": "Opera",
+            "exec": "opera",
+            "args": "",
+            "icon": "/usr/share/icons/hicolor/256x256/apps/opera.png",
+            "size": 32
+            },
+            {
+            "title": "Chromium",
+            "exec": "chromium-browser",
+            "args": "",
+            "icon": "/usr/share/icons/hicolor/256x256/apps/chromium.png",
+            "size": 32
+            },
+            {
+            "title": "WaterFox",
+            "exec": "waterfox",
+            "args": "",
+            "icon": "/usr/share/icons/Papirus/64x64/apps/waterfox.svg",
+            "size": 32
+            },
 
-	]
+            {
+            "title": "Brave",
+            "exec": "/usr/bin/brave",
+            "args": "--user-data-dir-name=brave -- %U",
+            "icon": "",
+            "size": 24
+            },
+            {
+            "title": "Firefox 56.0.2",
+            "exec": "/opt/firefox-56.0.2/firefox",
+            "args": "--new-instance --no-remote --profile /home/wuamin/.mozilla/firefox-56.0.2 %u",
+            "icon": "/opt/firefox-56.0.2/browser/icons/mozicon128.png",
+            "size": 24
+            },
+            {
+            "title": "Firefox Private",
+            "exec": "firefox",
+            "args": "-private-window",
+            "icon": "/usr/share/icons/hicolor/128x128/apps/firefox.png",
+            "size": 16
+            },
+            {
+            "title": "Google Chrome Private",
+            "exec": "google-chrome-stable",
+            "args": "--incognito",
+            "icon": "/usr/share/icons/hicolor/256x256/apps/google-chrome.png",
+            "size": 16
+            },
+            {
+            "title": "Opera Private",
+            "exec": "opera",
+            "args": "--private",
+            "icon": "/usr/share/icons/hicolor/256x256/apps/opera.png",
+            "size": 16
+            }
+
+        ]
 }

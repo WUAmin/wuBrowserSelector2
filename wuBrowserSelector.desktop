@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=wuBrowserSelector 2
+Comment=Choose Web Browser
+GenericName=Web Browser Selector
+Keywords=Internet;WWW;Browser;Web;Explorer
+Exec=wuBrowserSelector2 %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=wuBrowserSelector2.png
+Categories=GNOME;GTK;Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
+StartupNotify=true
